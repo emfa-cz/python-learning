@@ -10,17 +10,17 @@ class circle(shape):
         self.radius = radius
 
 class square(shape):
-        def __init__(self, colour, isFilled, width):
+    def __init__(self, colour, isFilled, width):
         super().__init__(colour, isFilled)
         self.width = width
 
 class triangle(shape):
-        def __init__(self, colour, filled, width, height):
+    def __init__(self, colour, filled, width, height):
         super().__init__(colour, isFilled)
         self.width = width
         self.height = height
 
-cicle = circle(color="blue", isFilled=True, radius=5)
+cicle = circle(colour="blue", isFilled=True, radius=5)
 
 print(circle.colour)
 print(circle.isFilled)
